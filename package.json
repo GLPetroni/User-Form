@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/osu-cs290-sp21/master-assignment-5.git"
+    "url": "git+https://github.com/GLPetroni/User-Form"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/osu-cs290-sp21/master-assignment-5/issues"
+    "url": "https://github.com/GLPetroni/User-Form/issues"
   },
-  "homepage": "https://github.com/osu-cs290-sp21/master-assignment-5#readme",
+  "homepage": "https://github.com/GLPetroni/User-Form/public/index.php",
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^5.3.2",
