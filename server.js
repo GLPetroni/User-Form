@@ -7,7 +7,7 @@ app.use(express.static('public'));
 //make way for some custom css, js and images
 app.use('text/css', express.static(__dirname + '/public/style.css'));
 app.use('application/javascript', express.static(__dirname + '/public/cost.js'));
-app.use('text/php', express.static(__dirname + '/public/index.php'));
+app.use('text/html', express.static(__dirname + '/public/index.php'));
 
 
 var server = app.listen(8081, function(){
