@@ -1,0 +1,32 @@
+{
+  "name": "giovanni-assignment-5",
+  "version": "1.0.0",
+  "description": "Handlebars templating",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "prestart": "npm run build",
+    "predev": "npm run build"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "handlebars": "^4.7.7",
+    "morgan": "^1.10.0",
+    "node-php": "0.0.1",
+    "node-php-server": "^0.1.2",
+    "nodemailer": "^6.6.3",
+    "php": "^1.0.1",
+    "php-express": "0.0.3",
+    "sphp": "^0.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
